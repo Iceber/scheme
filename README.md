@@ -2,6 +2,8 @@
 
 以插件的形式注册任何资源的 scheme 到 global scheme 中，主要用于 CRD 资源的结构注册
 
+**实际这种资源注册方式，不仅仅可以用于注册资源的 scheme，对于 cr 来说，我们可以在业务层抽象出接口，然后由具体的 cr 插件来实现，通过注册到业务程序中调用。实现对 cr 更加开放和强大的支持**
+
 ```sh
 $ make run
 go build --buildmode=plugin -o ./plugins/karmada.so ./plugins/karmada
