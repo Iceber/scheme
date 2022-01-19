@@ -1,4 +1,6 @@
 # Global Scheme Demo
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FIceber%2Fscheme.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FIceber%2Fscheme?ref=badge_shield)
+
 
 以插件的形式注册任何资源的 scheme 到 global scheme 中，主要用于 CRD 资源的结构注册
 
@@ -67,3 +69,7 @@ register karmada
 +-------------------------------+----------------------------+-------------------------------------+
 
 ```
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FIceber%2Fscheme.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FIceber%2Fscheme?ref=badge_large)
